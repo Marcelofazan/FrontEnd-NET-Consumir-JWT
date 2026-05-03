@@ -1,0 +1,92 @@
+﻿@model consumirAPI.Models.Produto
+
+@{
+    ViewData["Title"] = "Update Produto Details ";
+}
+
+@if (ViewBag.Erro != null)
+{
+    <div class="alert alert-danger">@ViewBag.Erro</div>
+}
+
+<h4> Update Produto Details </h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div class="row">
+                <input type="hidden" asp-for="Id" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IdEmpresa" class="control-label"></label>
+                        <input asp-for="IdEmpresa" class="form-control" />
+                        <span asp-validation-for="IdEmpresa" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IdProduto" class="control-label"></label>
+                        <input asp-for="IdProduto" class="form-control" />
+                        <span asp-validation-for="IdProduto" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ValorUltimaCompra" class="control-label"></label>
+                        <input asp-for="ValorUltimaCompra" class="form-control" />
+                        <span asp-validation-for="ValorUltimaCompra" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="LucroMinimo" class="control-label"></label>
+                        <input asp-for="LucroMinimo" class="form-control" />
+                        <span asp-validation-for="LucroMinimo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="LucroMaximo" class="control-label"></label>
+                        <input asp-for="LucroMaximo" class="form-control" />
+                        <span asp-validation-for="LucroMaximo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PrecoVendaMinimo" class="control-label"></label>
+                        <input asp-for="PrecoVendaMinimo" class="form-control" />
+                        <span asp-validation-for="PrecoVendaMinimo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PrecoSugerido" class="control-label"></label>
+                        <input asp-for="PrecoSugerido" class="form-control" />
+                        <span asp-validation-for="PrecoSugerido" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="DataCadastro" class="control-label"></label>
+                        <input asp-for="DataCadastro" class="form-control" />
+                        <span asp-validation-for="DataCadastro" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

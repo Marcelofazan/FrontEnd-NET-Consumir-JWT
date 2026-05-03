@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if (ViewBag.Registro != null)
+{
+    <div class="alert alert-danger">@ViewBag.Registro</div>
+}
+
+<p>Necessário Registrar usuario para acessar View Produtos.  </p>
+
+<div class="form-group">
+    <p class="mb-0">
+        <a href="@Url.Action("Registrar", "Home")" class="nav-link active">Registrar Administrardor</a>
+    </p>
+    <p class="mb-1">
+        <a href="@Url.Action("Login", "Home")" class="nav-link active">Fazer Login</a>
+    </p>
+</div>
