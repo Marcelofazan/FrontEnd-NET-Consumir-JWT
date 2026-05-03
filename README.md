@@ -1,8 +1,8 @@
-# FrontEnd NET Consumir JWT
+## FrontEnd NET Consumir JWT
 
 Exemplo de criação de Consumo de WebAPI com autorização utilizando JWT, focadas em arquitetura e segurança.
 
-## O que você vai encontrar neste projeto
+### O que você vai encontrar neste projeto
 
 - **JWT** - Uso de autorização em WebAPI
 - **CRUD** - Conjunto de quatro operações essenciais que permitem a manipulação de dados persistentes (criar, ler, atualizar e excluir).
@@ -18,7 +18,7 @@ Executa a aplicação Backend **https://github.com/Marcelofazan/API-EF10-JWT** q
 O banco de dados é SQLite (`SistemaERPOnlineForcaDeVendasAPI.db`) , onde será maninupado por essa aplicação como Frontend.
 
 
-### Execução Inicial de Endpoints (Postman)
+#### Execução Inicial de Endpoints (Postman)
 
 **(dadosadmin.json)**
 - Existe um arquivo de configuração para registrar onde será executado pelo Front End esse caminho **https://localhost:7092/api/auth/registro**
@@ -33,7 +33,7 @@ O banco de dados é SQLite (`SistemaERPOnlineForcaDeVendasAPI.db`) , onde será 
 	}
    ```
 
-### Rotas dos métodos 
+#### Rotas dos métodos 
 ```bash
 ...
 	Metodo: GET/POST /api/Produtos             Função: Listar / Criar produtos              JWT: Sim
