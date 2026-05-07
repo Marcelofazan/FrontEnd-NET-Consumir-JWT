@@ -1,9 +1,8 @@
 ## FrontEnd NET Consumir JWT
-Exemplo de criação de Consumo de WebAPI com autorização utilizando JWT, focadas em arquitetura e segurança.
+Exemplo de criação CRUD de Consumo de WebAPI com autorização utilizando JWT, focadas em arquitetura e segurança.
 
 ### O que você vai encontrar neste projeto
 - **JWT** - Uso de autorização em WebAPI
-- **CRUD** - Conjunto de quatro operações essenciais que permitem a manipulação de dados persistentes (criar, ler, atualizar e excluir).
 - **Razor** - Atua como o motor de renderização que combina C# com HTML para criar páginas dinâmicas
 - **Service** - Prática utilizada com Interfaces e Injeção de Dependência para Arquitetura em Camadas (ou Clean Architecture )
 
