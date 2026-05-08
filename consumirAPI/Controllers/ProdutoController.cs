@@ -75,7 +75,7 @@ namespace consumirAPI.Controllers
             }
             catch (Exception ex)
             {
-                ViewBag.Erro = "Não foi possível deletar produto.";
+                ViewBag.Erro = "Não foi possível inserir o produto.";
                 Console.WriteLine($"Exceção: {ex.Message}");
                 return View("Error");
             }
@@ -117,7 +117,7 @@ namespace consumirAPI.Controllers
             }
             catch (Exception ex)
             {
-                ViewBag.Erro = "Não foi possível deletar produto.";
+                ViewBag.Erro = "Não foi possível alterar produto.";
                 Console.WriteLine($"Exceção: {ex.Message}");
                 return View("Error");
             }
