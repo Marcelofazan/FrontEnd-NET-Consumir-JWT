@@ -32,6 +32,6 @@ O banco de dados é SQLite **(`SistemaERPOnlineForcaDeVendasAPI.db`)** , onde se
 ### Rotas dos métodos 
 | Tecnologia | Descrição |
 |-----------|-----------|
-| **Metodo: GET/POST /api/Produtos** | Função: Listar / Criar produtos |JWT: Sim |
-| **Metodo: GET/PUT/DELETE /api/Produtos/{id}** | Função: Obter / Atualizar / Excluir produto | JWT: Sim |
+| **Metodo: GET/POST /api/Produtos** | Função: Listar / Criar produtos JWT: Sim |
+| **Metodo: GET/PUT/DELETE /api/Produtos/{id}** | Função: Obter / Atualizar / Excluir produto JWT: Sim |
 
