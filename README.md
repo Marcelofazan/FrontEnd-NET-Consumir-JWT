@@ -17,8 +17,8 @@ O banco de dados é SQLite **(`SistemaERPOnlineForcaDeVendasAPI.db`)** , onde se
 
 #### 🧪 Execução de Endpoints ( Inicial Obrigatório)
 
-**1 -dadosadmin.json**
-Existe um arquivo de configuração para registrar onde será executado pelo Front End esse caminho **https://localhost:7092/api/auth/registro**
+**1 -dadosadmin.json** (Arquivo de configuração que consta no projeto)
+Enviar POST / Registro para criação do usuario:**https://localhost:7092/api/auth/registro**, selecionar Guia Body e enviar RAW e enviar o seguinte JSON  
 
 ```json
 { 
