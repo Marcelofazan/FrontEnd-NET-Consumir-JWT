@@ -15,7 +15,7 @@ Executa a aplicação Backend **https://github.com/Marcelofazan/API-EF10-JWT** q
   
 O banco de dados é SQLite **(`SistemaERPOnlineForcaDeVendasAPI.db`)** , onde será maninupado por essa aplicação como Frontend.
 
-#### Execução Inicial de Endpoints (Postman)
+#### 🧪 Execução Inicial de Endpoints (Postman)
 **(dadosadmin.json)**
 - Existe um arquivo de configuração para registrar onde será executado pelo Front End esse caminho **https://localhost:7092/api/auth/registro**
 
